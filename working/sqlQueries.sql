@@ -11,12 +11,12 @@
  - room numbers in range 0-25 for 4 floors (eg. 103, 203, 303, 403)
  - room availability 50/50
  
- 50 bookings:
+ 20 bookings:
  - 40 Checkin dates from today and 1 year ahead.
  - 10 checkin dates from before today for testing
 
  20 customers:
  - 
 
- 70 guests:
+ 45 guests: 10 alone, 20 two persons, 5 three persons
  - Different names and agegroups.
