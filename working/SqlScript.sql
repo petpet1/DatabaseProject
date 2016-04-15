@@ -4,7 +4,6 @@
 
 SET TERMOUT ON
 PROMPT Building demonstration tables.  Please wait.
-SET TERMOUT OFF
 
 DROP TABLE HOTEL;
 DROP TABLE ROOM;
