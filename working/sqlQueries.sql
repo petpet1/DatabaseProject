@@ -25,6 +25,9 @@ CREATE VIEW BookingsForRoom1 AS
   SELECT * FROM BOOKING 
   WHERE ROOMNUM='1' ORDER BY COUTDATE;
 
+
+--create view sumofdays as select sum(coutdate-cindate) as days from booking;
+
 --Add 10-12 complex queries
 
 --The number of days a guest will be staying 
@@ -33,6 +36,8 @@ select sum(coutdate-cindate) as days from booking b where b.gid=(select g.gid fr
 select count(bid) from booking where sysdate<cindate and nog=1;
 --average price paid by all guests with bookings
 select avg(basicprice) as average_price from room r,booking b where r.roomnum=b.roomnum;
+--average stay of guests
+
 
 
 --Sample test data
